@@ -2,6 +2,7 @@ import 'package:droidconit_21_flutter_simple_demo/routing/app_route_path.dart';
 import 'package:flutter/widgets.dart';
 
 class AppRouteInformationParser extends RouteInformationParser<AppRoutePath> {
+  
   @override
   Future<AppRoutePath> parseRouteInformation(
       RouteInformation routeInformation) async {
